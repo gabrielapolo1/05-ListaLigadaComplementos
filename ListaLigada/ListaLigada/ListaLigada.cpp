@@ -137,7 +137,7 @@ void inserirElemento()
 	}
 
 	else if(inserir == primeiro->valor) {
-			cout << "Valor digitado ja existente" << endl;
+			cout << "Valor digitado ja existe." << endl;
 			return;
 	}
 	else if(inserir < primeiro->valor){
@@ -155,7 +155,7 @@ void inserirElemento()
 			while (aux) {
 
 				if (inserir == aux->valor) {
-					cout << "Valor digitado ja existente" << endl;
+					cout << "Valor digitado ja existe." << endl;
 					return;
 				}
 				if (inserir < aux->valor) {
@@ -240,7 +240,7 @@ void buscarElemento()
 		cout << "Lista vazia" << endl;
 	}
 	else {
-		cout << "Digite o valor de busca: \n" << endl;
+		cout << "Digite o valor que deseja buscar: \n" << endl;
 		cin >> busca;
 
 		while (aux) {
